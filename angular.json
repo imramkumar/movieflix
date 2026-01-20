@@ -21,14 +21,15 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-        "outputPath": "dist/movie-discovery-app",
+        "outputPath": "dist/movieflix/browser",
         "index": "src/index.html",
         "browser": "src/main.ts",
         "tsConfig": "tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           "src/favicon.ico",
-          "src/assets"
+          "src/assets",
+          "src/_redirects"
         ],
         "styles": [
           "src/styles.scss"
